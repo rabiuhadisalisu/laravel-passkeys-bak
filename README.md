@@ -1,4 +1,4 @@
-**THIS PACKAGE IS IN DEVELOPMENT, DO NOT USE (YET)**
+
 
 # Use passkeys in your Laravel app
 
