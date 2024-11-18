@@ -1,5 +1,5 @@
 {
-    "name": "spatie/laravel-passkeys",
+    "name": "rabytebuild/laravel-passkeys",
     "description": "Use passkeys in your Laravel app",
     "keywords": [
         "Spatie",
@@ -10,8 +10,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Freek Van der Herten",
-            "email": "freek@spatie.be",
+            "name": "Rabiu Hadi Salisu",
+            "email": "hello@rabyte.com.ng",
             "role": "Developer"
         }
     ],
