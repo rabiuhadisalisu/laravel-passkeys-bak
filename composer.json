@@ -75,7 +75,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Rabytebuild\\LaravelPasskeys\\LaravelPasskeysServiceProvider"
+                "Spatie\\LaravelPasskeys\\LaravelPasskeysServiceProvider"
             ]
         }
     },
