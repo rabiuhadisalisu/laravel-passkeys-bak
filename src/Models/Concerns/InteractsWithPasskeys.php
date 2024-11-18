@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\LaravelPasskeys\Models\Concerns;
+namespace Rabytebuild\LaravelPasskeys\Models\Concerns;
 
 use Illuminate\Database\Eloquent\Relations\HasMany;
-use Spatie\LaravelPasskeys\Support\Config;
+use Rabytebuild\LaravelPasskeys\Support\Config;
 
 trait InteractsWithPasskeys
 {

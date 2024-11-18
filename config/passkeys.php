@@ -13,10 +13,10 @@ return [
      * by specify your custom class name here
      */
     'actions' => [
-        'generate_passkey_register_options' => Spatie\LaravelPasskeys\Actions\GeneratePasskeyRegisterOptionsAction::class,
-        'store_passkey' => Spatie\LaravelPasskeys\Actions\StorePasskeyAction::class,
-        'generate_passkey_authentication_options' => \Spatie\LaravelPasskeys\Actions\GeneratePasskeyAuthenticationOptionsAction::class,
-        'find_passkey' => \Spatie\LaravelPasskeys\Actions\FindPasskeyToAuthenticateAction::class,
+        'generate_passkey_register_options' => Rabytebuild\LaravelPasskeys\Actions\GeneratePasskeyRegisterOptionsAction::class,
+        'store_passkey' => Rabytebuild\LaravelPasskeys\Actions\StorePasskeyAction::class,
+        'generate_passkey_authentication_options' => \Rabytebuild\LaravelPasskeys\Actions\GeneratePasskeyAuthenticationOptionsAction::class,
+        'find_passkey' => \Rabytebuild\LaravelPasskeys\Actions\FindPasskeyToAuthenticateAction::class,
     ],
 
     /*
@@ -33,7 +33,7 @@ return [
      * You can override this by specifying your own models
      */
     'models' => [
-        'passkey' => Spatie\LaravelPasskeys\Models\Passkey::class,
+        'passkey' => Rabytebuild\LaravelPasskeys\Models\Passkey::class,
         'authenticatable' => env('AUTH_MODEL', App\Models\User::class),
     ],
 ];

@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\LaravelPasskeys\Http\Components;
+namespace Rabytebuild\LaravelPasskeys\Http\Components;
 
 use Illuminate\Support\Facades\Session;
 use Illuminate\View\Component;

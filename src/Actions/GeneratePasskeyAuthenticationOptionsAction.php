@@ -1,10 +1,10 @@
 <?php
 
-namespace Spatie\LaravelPasskeys\Actions;
+namespace Rabytebuild\LaravelPasskeys\Actions;
 
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Str;
-use Spatie\LaravelPasskeys\Support\Serializer;
+use Rabytebuild\LaravelPasskeys\Support\Serializer;
 use Webauthn\PublicKeyCredentialRequestOptions;
 
 class GeneratePasskeyAuthenticationOptionsAction

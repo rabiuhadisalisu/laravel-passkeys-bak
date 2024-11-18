@@ -1,16 +1,16 @@
 <?php
 
-namespace Spatie\LaravelPasskeys\Livewire;
+namespace Rabytebuild\LaravelPasskeys\Livewire;
 
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Validation\ValidationException;
 use Illuminate\View\View;
 use Livewire\Attributes\Validate;
 use Livewire\Component;
-use Spatie\LaravelPasskeys\Actions\GeneratePasskeyRegisterOptionsAction;
-use Spatie\LaravelPasskeys\Actions\StorePasskeyAction;
-use Spatie\LaravelPasskeys\Models\Concerns\HasPasskeys;
-use Spatie\LaravelPasskeys\Support\Config;
+use Rabytebuild\LaravelPasskeys\Actions\GeneratePasskeyRegisterOptionsAction;
+use Rabytebuild\LaravelPasskeys\Actions\StorePasskeyAction;
+use Rabytebuild\LaravelPasskeys\Models\Concerns\HasPasskeys;
+use Rabytebuild\LaravelPasskeys\Support\Config;
 use Throwable;
 
 class PasskeysComponent extends Component
@@ -34,7 +34,7 @@ class PasskeysComponent extends Component
 
     public function storePasskey(string $passkey): void
     {
-        /** @var \Spatie\LaravelPasskeys\Actions\StorePasskeyAction $storePasskeyAction */
+        /** @var \Rabytebuild\LaravelPasskeys\Actions\StorePasskeyAction $storePasskeyAction */
         $storePasskeyAction = Config::getAction('store_passkey', StorePasskeyAction::class);
 
         try {

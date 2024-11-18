@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\LaravelPasskeys\Models\Concerns;
+namespace Rabytebuild\LaravelPasskeys\Models\Concerns;
 
 use Illuminate\Database\Eloquent\Relations\HasMany;
 

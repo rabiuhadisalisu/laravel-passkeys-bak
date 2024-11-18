@@ -1,18 +1,18 @@
 <?php
 
-namespace Spatie\LaravelPasskeys\Support;
+namespace Rabytebuild\LaravelPasskeys\Support;
 
 use Illuminate\Contracts\Auth\Authenticatable;
-use Spatie\LaravelPasskeys\Exceptions\InvalidActionClass;
-use Spatie\LaravelPasskeys\Exceptions\InvalidAuthenticatableModel;
-use Spatie\LaravelPasskeys\Exceptions\InvalidPasskeyModel;
-use Spatie\LaravelPasskeys\Models\Concerns\HasPasskeys;
-use Spatie\LaravelPasskeys\Models\Passkey;
+use Rabytebuild\LaravelPasskeys\Exceptions\InvalidActionClass;
+use Rabytebuild\LaravelPasskeys\Exceptions\InvalidAuthenticatableModel;
+use Rabytebuild\LaravelPasskeys\Exceptions\InvalidPasskeyModel;
+use Rabytebuild\LaravelPasskeys\Models\Concerns\HasPasskeys;
+use Rabytebuild\LaravelPasskeys\Models\Passkey;
 
 class Config
 {
     /**
-     * @return class-string<\Spatie\LaravelPasskeys\Models\Passkey>
+     * @return class-string<\Rabytebuild\LaravelPasskeys\Models\Passkey>
      */
     public static function getPassKeyModel(): string
     {

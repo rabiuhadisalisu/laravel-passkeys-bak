@@ -1,10 +1,10 @@
 <?php
 
-namespace Spatie\LaravelPasskeys\Actions;
+namespace Rabytebuild\LaravelPasskeys\Actions;
 
-use Spatie\LaravelPasskeys\Models\Passkey;
-use Spatie\LaravelPasskeys\Support\Config;
-use Spatie\LaravelPasskeys\Support\Serializer;
+use Rabytebuild\LaravelPasskeys\Models\Passkey;
+use Rabytebuild\LaravelPasskeys\Support\Config;
+use Rabytebuild\LaravelPasskeys\Support\Serializer;
 use Throwable;
 use Webauthn\AuthenticatorAssertionResponse;
 use Webauthn\AuthenticatorAssertionResponseValidator;

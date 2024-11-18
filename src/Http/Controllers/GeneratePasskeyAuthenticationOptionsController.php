@@ -1,10 +1,10 @@
 <?php
 
-namespace Spatie\LaravelPasskeys\Http\Controllers;
+namespace Rabytebuild\LaravelPasskeys\Http\Controllers;
 
 use Illuminate\Support\Facades\Session;
-use Spatie\LaravelPasskeys\Actions\GeneratePasskeyAuthenticationOptionsAction;
-use Spatie\LaravelPasskeys\Support\Config;
+use Rabytebuild\LaravelPasskeys\Actions\GeneratePasskeyAuthenticationOptionsAction;
+use Rabytebuild\LaravelPasskeys\Support\Config;
 
 class GeneratePasskeyAuthenticationOptionsController
 {

@@ -2,10 +2,10 @@
 
 # Use passkeys in your Laravel app
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/spatie/laravel-passkeys.svg?style=flat-square)](https://packagist.org/packages/spatie/laravel-passkeys)
-[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/spatie/laravel-passkeys/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/spatie/laravel-passkeys/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/spatie/laravel-passkeys/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/spatie/laravel-passkeys/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
-[![Total Downloads](https://img.shields.io/packagist/dt/spatie/laravel-passkeys.svg?style=flat-square)](https://packagist.org/packages/spatie/laravel-passkeys)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/rabytebuild/laravel-passkeys.svg?style=flat-square)](https://packagist.org/packages/rabytebuild/laravel-passkeys)
+[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/rabytebuild/laravel-passkeys/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/rabytebuild/laravel-passkeys/actions?query=workflow%3Arun-tests+branch%3Amain)
+[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/rabytebuild/laravel-passkeys/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/rabytebuild/laravel-passkeys/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
+[![Total Downloads](https://img.shields.io/packagist/dt/rabytebuild/laravel-passkeys.svg?style=flat-square)](https://packagist.org/packages/rabytebuild/laravel-passkeys)
 
 Passkeys let you log in without needing a password. The process can be compared to how SSH keys work.
 
@@ -19,11 +19,11 @@ This package provides a simple way to generate passkey using a Livewire componen
 
 ## Support us
 
-[<img src="https://github-ads.s3.eu-central-1.amazonaws.com/laravel-passkeys.jpg?t=1" width="419px" />](https://spatie.be/github-ad-click/laravel-passkeys)
+[<img src="https://github-ads.s3.eu-central-1.amazonaws.com/laravel-passkeys.jpg?t=1" width="419px" />](https://rabytebuild.be/github-ad-click/laravel-passkeys)
 
-We invest a lot of resources into creating [best in class open source packages](https://spatie.be/open-source). You can support us by [buying one of our paid products](https://spatie.be/open-source/support-us).
+We invest a lot of resources into creating [best in class open source packages](https://rabytebuild.be/open-source). You can support us by [buying one of our paid products](https://rabytebuild.be/open-source/support-us).
 
-We highly appreciate you sending us a postcard from your hometown, mentioning which of our package(s) you are using. You'll find our address on [our contact page](https://spatie.be/about-us). We publish all received postcards on [our virtual postcard wall](https://spatie.be/open-source/postcards).
+We highly appreciate you sending us a postcard from your hometown, mentioning which of our package(s) you are using. You'll find our address on [our contact page](https://rabytebuild.be/about-us). We publish all received postcards on [our virtual postcard wall](https://rabytebuild.be/open-source/postcards).
 
 ## Requirements
 
@@ -34,7 +34,7 @@ This package contains a Livewire component to generate passkeys. Make sure you h
 You can install the package via composer:
 
 ```bash
-composer require spatie/laravel-passkeys
+composer require rabytebuild/laravel-passkeys
 ```
 
 Next, you must set the `AUTH_MODEL` in your `.env` file to the class name of the model that should be authenticated using passkeys.
@@ -77,10 +77,10 @@ return [
      * by specify your custom class name here
      */
     'actions' => [
-        'generate_passkey_register_options' => Spatie\LaravelPasskeys\Actions\GeneratePasskeyRegisterOptionsAction::class,
-        'store_passkey' => Spatie\LaravelPasskeys\Actions\StorePasskeyAction::class,
-        'generate_passkey_authentication_options' => \Spatie\LaravelPasskeys\Actions\GeneratePasskeyAuthenticationOptionsAction::class,
-        'find_passkey' => \Spatie\LaravelPasskeys\Actions\FindPasskeyToAuthenticateAction::class,
+        'generate_passkey_register_options' => Rabytebuild\LaravelPasskeys\Actions\GeneratePasskeyRegisterOptionsAction::class,
+        'store_passkey' => Rabytebuild\LaravelPasskeys\Actions\StorePasskeyAction::class,
+        'generate_passkey_authentication_options' => \Rabytebuild\LaravelPasskeys\Actions\GeneratePasskeyAuthenticationOptionsAction::class,
+        'find_passkey' => \Rabytebuild\LaravelPasskeys\Actions\FindPasskeyToAuthenticateAction::class,
     ],
 
     /*
@@ -97,7 +97,7 @@ return [
      * You can override this by specifying your own models
      */
     'models' => [
-        'passkey' => Spatie\LaravelPasskeys\Models\Passkey::class,
+        'passkey' => Rabytebuild\LaravelPasskeys\Models\Passkey::class,
         'authenticatable' => env('AUTH_MODEL', App\Models\User::class),
     ],
 ];
@@ -159,7 +159,7 @@ To customize where the user is redirected after a successful login, you can pass
 
 ### Events
 
-The package fires the `Spatie\LaravelPasskeys\Events\PasskeyUsedToAuthenticateEvent` when a passkey is used to authenticate. It has a property `passkey` that contains the `Passkey` model that was used to authenticate.
+The package fires the `Rabytebuild\LaravelPasskeys\Events\PasskeyUsedToAuthenticateEvent` when a passkey is used to authenticate. It has a property `passkey` that contains the `Passkey` model that was used to authenticate.
 
 ## Testing
 

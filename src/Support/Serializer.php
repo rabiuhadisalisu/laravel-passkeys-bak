@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\LaravelPasskeys\Support;
+namespace Rabytebuild\LaravelPasskeys\Support;
 
 use Symfony\Component\Serializer\Serializer as SymfonySerializer;
 use Webauthn\AttestationStatement\AttestationStatementSupportManager;

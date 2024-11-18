@@ -1,15 +1,15 @@
 <?php
 
-namespace Spatie\LaravelPasskeys\Http\Controllers;
+namespace Rabytebuild\LaravelPasskeys\Http\Controllers;
 
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Session;
-use Spatie\LaravelPasskeys\Actions\FindPasskeyToAuthenticateAction;
-use Spatie\LaravelPasskeys\Events\PasskeyUsedToAuthenticateEvent;
-use Spatie\LaravelPasskeys\Http\Requests\AuthenticateUsingPasskeysRequest;
-use Spatie\LaravelPasskeys\Support\Config;
+use Rabytebuild\LaravelPasskeys\Actions\FindPasskeyToAuthenticateAction;
+use Rabytebuild\LaravelPasskeys\Events\PasskeyUsedToAuthenticateEvent;
+use Rabytebuild\LaravelPasskeys\Http\Requests\AuthenticateUsingPasskeysRequest;
+use Rabytebuild\LaravelPasskeys\Support\Config;
 
 class AuthenticateUsingPasskeyController
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\LaravelPasskeys\Exceptions;
+namespace Rabytebuild\LaravelPasskeys\Exceptions;
 
 use Exception;
-use Spatie\LaravelPasskeys\Models\Passkey;
+use Rabytebuild\LaravelPasskeys\Models\Passkey;
 
 class InvalidPasskeyModel extends Exception
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\LaravelPasskeys\Http\Requests;
+namespace Rabytebuild\LaravelPasskeys\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 

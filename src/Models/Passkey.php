@@ -1,15 +1,15 @@
 <?php
 
-namespace Spatie\LaravelPasskeys\Models;
+namespace Rabytebuild\LaravelPasskeys\Models;
 
 use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
-use Spatie\LaravelPasskeys\Database\Factories\PasskeyFactory;
-use Spatie\LaravelPasskeys\Support\Config;
-use Spatie\LaravelPasskeys\Support\Serializer;
+use Rabytebuild\LaravelPasskeys\Database\Factories\PasskeyFactory;
+use Rabytebuild\LaravelPasskeys\Support\Config;
+use Rabytebuild\LaravelPasskeys\Support\Serializer;
 use Webauthn\PublicKeyCredentialSource;
 
 class Passkey extends Model

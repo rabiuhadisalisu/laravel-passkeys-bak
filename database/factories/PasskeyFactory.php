@@ -1,10 +1,10 @@
 <?php
 
-namespace Spatie\LaravelPasskeys\Database\Factories;
+namespace Rabytebuild\LaravelPasskeys\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Spatie\LaravelPasskeys\Models\Passkey;
-use Spatie\LaravelPasskeys\Support\Config;
+use Rabytebuild\LaravelPasskeys\Models\Passkey;
+use Rabytebuild\LaravelPasskeys\Support\Config;
 use Symfony\Component\Uid\Uuid;
 use Webauthn\PublicKeyCredentialDescriptor;
 use Webauthn\PublicKeyCredentialSource;

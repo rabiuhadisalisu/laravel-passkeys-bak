@@ -1,11 +1,11 @@
 <?php
 
-namespace Spatie\LaravelPasskeys\Actions;
+namespace Rabytebuild\LaravelPasskeys\Actions;
 
 use Illuminate\Support\Str;
-use Spatie\LaravelPasskeys\Models\Concerns\HasPasskeys;
-use Spatie\LaravelPasskeys\Support\Config;
-use Spatie\LaravelPasskeys\Support\Serializer;
+use Rabytebuild\LaravelPasskeys\Models\Concerns\HasPasskeys;
+use Rabytebuild\LaravelPasskeys\Support\Config;
+use Rabytebuild\LaravelPasskeys\Support\Serializer;
 use Webauthn\PublicKeyCredentialCreationOptions;
 use Webauthn\PublicKeyCredentialRpEntity;
 use Webauthn\PublicKeyCredentialUserEntity;

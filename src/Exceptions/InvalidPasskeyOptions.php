@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\LaravelPasskeys\Exceptions;
+namespace Rabytebuild\LaravelPasskeys\Exceptions;
 
 use Exception;
 

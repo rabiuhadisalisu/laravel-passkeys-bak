@@ -1,16 +1,16 @@
 <?php
 
-namespace Spatie\LaravelPasskeys;
+namespace Rabytebuild\LaravelPasskeys;
 
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\Facades\Route;
 use Livewire\Livewire;
-use Spatie\LaravelPackageTools\Package;
-use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Spatie\LaravelPasskeys\Http\Components\AuthenticatePasskeyComponent;
-use Spatie\LaravelPasskeys\Http\Controllers\AuthenticateUsingPasskeyController;
-use Spatie\LaravelPasskeys\Http\Controllers\GeneratePasskeyAuthenticationOptionsController;
-use Spatie\LaravelPasskeys\Livewire\PasskeysComponent;
+use Rabytebuild\LaravelPackageTools\Package;
+use Rabytebuild\LaravelPackageTools\PackageServiceProvider;
+use Rabytebuild\LaravelPasskeys\Http\Components\AuthenticatePasskeyComponent;
+use Rabytebuild\LaravelPasskeys\Http\Controllers\AuthenticateUsingPasskeyController;
+use Rabytebuild\LaravelPasskeys\Http\Controllers\GeneratePasskeyAuthenticationOptionsController;
+use Rabytebuild\LaravelPasskeys\Livewire\PasskeysComponent;
 
 class LaravelPasskeysServiceProvider extends PackageServiceProvider
 {

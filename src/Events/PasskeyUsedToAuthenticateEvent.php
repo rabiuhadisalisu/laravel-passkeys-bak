@@ -1,8 +1,8 @@
 <?php
 
-namespace Spatie\LaravelPasskeys\Events;
+namespace Rabytebuild\LaravelPasskeys\Events;
 
-use Spatie\LaravelPasskeys\Models\Passkey;
+use Rabytebuild\LaravelPasskeys\Models\Passkey;
 
 class PasskeyUsedToAuthenticateEvent
 {
